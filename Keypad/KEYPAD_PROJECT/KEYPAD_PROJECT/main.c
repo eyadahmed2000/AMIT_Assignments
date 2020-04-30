@@ -10,7 +10,7 @@
 unsigned char key;
 
 int main(void)
-{	DDRB&=~0xf0;
+{	DDRB|=0xf0;
 	DDRD&=~0xf0;
 	DDRB|=(1<<0);
 	PORTD|=0xF0;
